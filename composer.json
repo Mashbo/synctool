@@ -1,0 +1,35 @@
+{
+    "name": "mashbo/synctool",
+    "autoload": {
+    },
+    "require": {
+        "mashbo/console-toolkit": "*@dev",
+        "mashbo/mashbot-taskrunner": "*@dev",
+        "mashbo/mashbot-envtool-taskrunner-extension": "*@dev",
+        "mashbo/mashbot-process-taskrunner-extension": "*@dev",
+        "mashbo/mashbot-ssh-taskrunner-extension": "*@dev",
+        "beberlei/assert": "^2.5"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "ssh://git@github.com/mashbo/mashbot-taskrunner.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@github.com/mashbo/console-toolkit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/envtool-taskrunner-extension.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/process-taskrunner-extension.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/ssh-taskrunner-extension.git"
+        }
+    ]
+}

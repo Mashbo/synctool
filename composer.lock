@@ -1,0 +1,330 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5dac79bc91532f78ec85968664a5ff83",
+    "content-hash": "9a06d47e3286c77a101728d81987f659",
+    "packages": [
+        {
+            "name": "beberlei/assert",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/assert.git",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assert": "lib/"
+                },
+                "files": [
+                    "lib/Assert/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Thin assertion library for input validation in business models.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "validation"
+            ],
+            "time": "2016-03-22 14:34:51"
+        },
+        {
+            "name": "mashbo/console-toolkit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@github.com/mashbo/console-toolkit.git",
+                "reference": "4edb9c9b77c206b2860d44893ca6fde45a074fef"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mashbo\\ConsoleToolkit\\": "src/",
+                    "Mashbo\\ConsoleToolkit\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Quaile",
+                    "email": "aquaile@mashbo.com"
+                }
+            ],
+            "description": "Library, script and tools for building CLI apps",
+            "time": "2016-04-28 08:27:59"
+        },
+        {
+            "name": "mashbo/mashbot-envtool-taskrunner-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/envtool-taskrunner-extension.git",
+                "reference": "8feeb3227175978ffdf35db9c2f479214d98cab7"
+            },
+            "require": {
+                "mashbo/mashbot-process-taskrunner-extension": "*@dev",
+                "mashbo/mashbot-ssh-taskrunner-extension": "*@dev",
+                "mashbo/mashbot-taskrunner": "*@dev",
+                "symfony/process": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.3"
+            },
+            "suggest": {
+                "psr/log": "Add extra logging information"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mashbo\\Mashbot\\Extensions\\EnvToolTaskRunnerExtension\\": "src/",
+                    "Mashbo\\Mashbot\\Extensions\\EnvToolTaskRunnerExtension\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Adam Quaile",
+                    "email": "aquaile@mashbo.com"
+                }
+            ],
+            "description": "Provide tasks to synchronise and transfer content between environments",
+            "time": "2016-04-26 15:51:29"
+        },
+        {
+            "name": "mashbo/mashbot-process-taskrunner-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/process-taskrunner-extension.git",
+                "reference": "b838f1ac4e63472e621f0eca40de6ad57e51d4b8"
+            },
+            "require": {
+                "mashbo/mashbot-taskrunner": "*@dev",
+                "symfony/process": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.3"
+            },
+            "suggest": {
+                "psr/log": "Add extra logging information"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mashbo\\Mashbot\\Extensions\\ProcessTaskRunnerExtension\\": "src/",
+                    "Mashbo\\Mashbot\\Extensions\\ProcessTaskRunnerExtension\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Adam Quaile",
+                    "email": "aquaile@mashbo.com"
+                }
+            ],
+            "description": "Provide tasks to run commands and processes locally",
+            "time": "2016-04-26 10:50:14"
+        },
+        {
+            "name": "mashbo/mashbot-ssh-taskrunner-extension",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/ssh-taskrunner-extension.git",
+                "reference": "0d68e1ebeefd75d460a61a069260e3cbbe33101a"
+            },
+            "require": {
+                "mashbo/mashbot-process-taskrunner-extension": "*@dev",
+                "mashbo/mashbot-taskrunner": "*@dev",
+                "symfony/process": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mashbo\\Mashbot\\Extensions\\SshTaskRunnerExtension\\": "src/",
+                    "Mashbo\\Mashbot\\Extensions\\SshTaskRunnerExtension\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Adam Quaile",
+                    "email": "aquaile@mashbo.com"
+                }
+            ],
+            "description": "Provide tasks to run commands and copy files over SSH",
+            "time": "2016-04-27 09:10:12"
+        },
+        {
+            "name": "mashbo/mashbot-taskrunner",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@github.com/mashbo/mashbot-taskrunner.git",
+                "reference": "beff85cd738c4bd91b06ddf42d67100d3151e1dd"
+            },
+            "require": {
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mashbo\\Mashbot\\TaskRunner\\": "src/",
+                    "Mashbo\\Mashbot\\TaskRunner\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Quaile",
+                    "email": "aquaile@mashbo.com"
+                }
+            ],
+            "description": "Configurable / scriptable task runner",
+            "time": "2016-04-28 08:52:09"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
+                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-03-30 10:41:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mashbo/console-toolkit": 20,
+        "mashbo/mashbot-taskrunner": 20,
+        "mashbo/mashbot-envtool-taskrunner-extension": 20,
+        "mashbo/mashbot-process-taskrunner-extension": 20,
+        "mashbo/mashbot-ssh-taskrunner-extension": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
