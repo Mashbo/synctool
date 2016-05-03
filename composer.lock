@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d0fed50607f55c872c5c5c3c61abfcdf",
-    "content-hash": "866a1220ba308ebd50fd7a5879225149",
+    "hash": "4152d9c29dc0593c42e11ba12f176357",
+    "content-hash": "2f40fe150b51f0784112a2cd01618d06",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -207,8 +207,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://git@github.com/mashbo/mashbot-taskrunner.git",
+                "url": "https://github.com/Mashbo/mashbot-taskrunner.git",
                 "reference": "beff85cd738c4bd91b06ddf42d67100d3151e1dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashbo/mashbot-taskrunner/zipball/beff85cd738c4bd91b06ddf42d67100d3151e1dd",
+                "reference": "beff85cd738c4bd91b06ddf42d67100d3151e1dd",
+                "shasum": ""
             },
             "require": {
                 "psr/log": "~1.0"
@@ -233,6 +239,10 @@
                 }
             ],
             "description": "Configurable / scriptable task runner",
+            "support": {
+                "source": "https://github.com/Mashbo/mashbot-taskrunner/tree/master",
+                "issues": "https://github.com/Mashbo/mashbot-taskrunner/issues"
+            },
             "time": "2016-04-28 08:52:09"
         },
         {
