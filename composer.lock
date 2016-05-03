@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5dac79bc91532f78ec85968664a5ff83",
-    "content-hash": "9a06d47e3286c77a101728d81987f659",
+    "hash": "d0fed50607f55c872c5c5c3c61abfcdf",
+    "content-hash": "866a1220ba308ebd50fd7a5879225149",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -65,8 +65,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://git@github.com/mashbo/console-toolkit.git",
+                "url": "https://github.com/Mashbo/console-toolkit.git",
                 "reference": "4edb9c9b77c206b2860d44893ca6fde45a074fef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashbo/console-toolkit/zipball/4edb9c9b77c206b2860d44893ca6fde45a074fef",
+                "reference": "4edb9c9b77c206b2860d44893ca6fde45a074fef",
+                "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "~5.2"
@@ -88,6 +94,10 @@
                 }
             ],
             "description": "Library, script and tools for building CLI apps",
+            "support": {
+                "source": "https://github.com/Mashbo/console-toolkit/tree/master",
+                "issues": "https://github.com/Mashbo/console-toolkit/issues"
+            },
             "time": "2016-04-28 08:27:59"
         },
         {
@@ -96,7 +106,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/envtool-taskrunner-extension.git",
-                "reference": "8feeb3227175978ffdf35db9c2f479214d98cab7"
+                "reference": "a55a56ff855d4954dc1a33537fa8df41f9ed9c88"
             },
             "require": {
                 "mashbo/mashbot-process-taskrunner-extension": "*@dev",
@@ -124,7 +134,7 @@
                 }
             ],
             "description": "Provide tasks to synchronise and transfer content between environments",
-            "time": "2016-04-26 15:51:29"
+            "time": "2016-04-29 13:11:18"
         },
         {
             "name": "mashbo/mashbot-process-taskrunner-extension",
@@ -265,16 +275,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776"
+                "reference": "53f9407c0bb1c5a79127db8f7bfe12f0f6f3dcdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
-                "reference": "e6f1f98bbd355d209a992bfff45e7edfbd4a0776",
+                "url": "https://api.github.com/repos/symfony/process/zipball/53f9407c0bb1c5a79127db8f7bfe12f0f6f3dcdb",
+                "reference": "53f9407c0bb1c5a79127db8f7bfe12f0f6f3dcdb",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +320,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-30 10:41:14"
+            "time": "2016-04-14 15:30:28"
         }
     ],
     "packages-dev": [],

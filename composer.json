@@ -17,7 +17,7 @@
         },
         {
             "type": "vcs",
-            "url": "ssh://git@github.com/mashbo/console-toolkit.git"
+            "url": "https://github.com/Mashbo/console-toolkit.git"
         },
         {
             "type": "vcs",
