@@ -4,6 +4,7 @@
 
 Download / build `.phar` file then:
 
+```bash
 sync.phar pull \
     --remote.host=remote \
     --remote.port=22 \
@@ -15,3 +16,4 @@ sync.phar pull \
     --local.path=/tmp/files \
     --local.db.name=local \
     --local.db.user=root
+```
