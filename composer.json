@@ -21,15 +21,15 @@
         },
         {
             "type": "vcs",
-            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/envtool-taskrunner-extension.git"
+            "url": "https://github.com/Mashbo/mashbot-envtool-taskrunner-extension.git"
         },
         {
             "type": "vcs",
-            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/process-taskrunner-extension.git"
+            "url": "https://github.com/Mashbo/mashbot-process-taskrunner-extension.git"
         },
         {
             "type": "vcs",
-            "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/ssh-taskrunner-extension.git"
+            "url": "https://github.com/Mashbo/mashbot-ssh-taskrunner-extension.git"
         }
     ]
 }

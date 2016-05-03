@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "debac4ab792a8fc122156b9e1a7c753c",
-    "content-hash": "2f40fe150b51f0784112a2cd01618d06",
+    "hash": "155bf4128af45492ed04e1f2a3bc314a",
+    "content-hash": "1d8a42bb99fb6b7dd783d22b884d57b9",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -105,8 +105,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/envtool-taskrunner-extension.git",
+                "url": "https://github.com/Mashbo/mashbot-envtool-taskrunner-extension.git",
                 "reference": "a55a56ff855d4954dc1a33537fa8df41f9ed9c88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashbo/mashbot-envtool-taskrunner-extension/zipball/a55a56ff855d4954dc1a33537fa8df41f9ed9c88",
+                "reference": "a55a56ff855d4954dc1a33537fa8df41f9ed9c88",
+                "shasum": ""
             },
             "require": {
                 "mashbo/mashbot-process-taskrunner-extension": "*@dev",
@@ -134,6 +140,10 @@
                 }
             ],
             "description": "Provide tasks to synchronise and transfer content between environments",
+            "support": {
+                "source": "https://github.com/Mashbo/mashbot-envtool-taskrunner-extension/tree/master",
+                "issues": "https://github.com/Mashbo/mashbot-envtool-taskrunner-extension/issues"
+            },
             "time": "2016-04-29 13:11:18"
         },
         {
@@ -141,8 +151,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/process-taskrunner-extension.git",
+                "url": "https://github.com/Mashbo/mashbot-process-taskrunner-extension.git",
                 "reference": "b838f1ac4e63472e621f0eca40de6ad57e51d4b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashbo/mashbot-process-taskrunner-extension/zipball/b838f1ac4e63472e621f0eca40de6ad57e51d4b8",
+                "reference": "b838f1ac4e63472e621f0eca40de6ad57e51d4b8",
+                "shasum": ""
             },
             "require": {
                 "mashbo/mashbot-taskrunner": "*@dev",
@@ -168,6 +184,10 @@
                 }
             ],
             "description": "Provide tasks to run commands and processes locally",
+            "support": {
+                "source": "https://github.com/Mashbo/mashbot-process-taskrunner-extension/tree/master",
+                "issues": "https://github.com/Mashbo/mashbot-process-taskrunner-extension/issues"
+            },
             "time": "2016-04-26 10:50:14"
         },
         {
@@ -175,8 +195,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/ssh-taskrunner-extension.git",
+                "url": "https://github.com/Mashbo/mashbot-ssh-taskrunner-extension.git",
                 "reference": "0d68e1ebeefd75d460a61a069260e3cbbe33101a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashbo/mashbot-ssh-taskrunner-extension/zipball/0d68e1ebeefd75d460a61a069260e3cbbe33101a",
+                "reference": "0d68e1ebeefd75d460a61a069260e3cbbe33101a",
+                "shasum": ""
             },
             "require": {
                 "mashbo/mashbot-process-taskrunner-extension": "*@dev",
@@ -200,6 +226,10 @@
                 }
             ],
             "description": "Provide tasks to run commands and copy files over SSH",
+            "support": {
+                "source": "https://github.com/Mashbo/mashbot-ssh-taskrunner-extension/tree/master",
+                "issues": "https://github.com/Mashbo/mashbot-ssh-taskrunner-extension/issues"
+            },
             "time": "2016-04-27 09:10:12"
         },
         {
