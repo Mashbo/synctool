@@ -7,6 +7,7 @@ services:
 
 before_install:
   - composer install --no-interaction --prefer-dist
+  - echo "[gitlab.mashbo.com]:5339,[188.166.175.227]:5339 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE3LZeXTtE8QzzxstStsRCpbKn+i4MS2zor7NvygahlucmLAZ6ENGLx3brpqMksdzZ6yN/KdFGvtuJWrlNrP3iA=" > ~/.ssh/known_hosts
 
 script:
   - cd ci && ./test.sh

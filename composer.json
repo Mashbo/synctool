@@ -31,8 +31,5 @@
             "type": "vcs",
             "url": "ssh://git@gitlab.mashbo.com:5339/mashbot/ssh-taskrunner-extension.git"
         }
-    ],
-    "config": {
-        "secure-http": false
-    }
+    ]
 }
